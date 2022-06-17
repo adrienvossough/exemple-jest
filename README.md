@@ -1,4 +1,4 @@
-# Découverte des tests unitaires et intégration
+# Découverte des tests unitaires avec Jest
 
 ## Description
 
@@ -15,4 +15,4 @@ Dans une console à la racine du projet, taper : `npm install`.
 ## Lancement
 
 Dans une console à la racine du projet, taper : `npm run demo-N°`.
-Remplacer "N°" par 1, 2, etc.
+Remplacer "N°" par 1, 2, 3, 4 ou 5
