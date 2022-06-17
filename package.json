@@ -1,0 +1,27 @@
+{
+    "name": "exemples",
+    "version": "1.0.0",
+    "description": "Démo simple",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node ./src/index.ts",
+        "build": "npx tsc",
+        "test": "jest",
+        "watch-test": "npm run test -- --watch",
+        "demo-1": "npm run watch-test ./src/ex1",
+        "demo-2": "npm run watch-test ./src/ex2/division1.spec.ts",
+        "demo-3": "npm run watch-test ./src/ex2/division2.spec.ts",
+        "demo-4": "npm run watch-test ./src/ex3/division.spec.ts",
+        "demo-5": "npm run watch-test ./src/ex4"
+    },
+    "author": "Adrien Vossough",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "~28.1.1",
+        "jest": "~28.1.1",
+        "moq.ts": "~9.0.2",
+        "ts-jest": "~28.0.5",
+        "ts-node": "~10.8.1",
+        "typescript": "~4.7.3"
+    }
+}
